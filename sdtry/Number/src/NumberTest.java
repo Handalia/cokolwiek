@@ -32,6 +32,12 @@ public class NumberTest extends TestCase {
 		assertEquals("Incorrect Change", new Number(11).changeBase(3), "102");
 	}
 	
+	//cudza zmiana
+	public void testType() {
+  		assertFalse("Bad returning type", new Number(23).changeBase(3).getClass().equals(new Integer(6).getClass()));
+	}
+  
+ }
 	
 }
 	
