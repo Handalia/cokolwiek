@@ -33,11 +33,9 @@ public class NumberTest extends TestCase {
 	}
 	
 	//cudza zmiana
-	public void testType() {
+	public void testType() throws MyNumberException {
   		assertFalse("Bad returning type", new Number(23).changeBase(3).getClass().equals(new Integer(6).getClass()));
 	}
-  
- }
 	
 }
 	
