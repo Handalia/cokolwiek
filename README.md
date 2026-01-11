@@ -1,4 +1,4 @@
-#Treść w readme github
+# Treść w readme github
 Taki styl narzuca **github**. 
 1. Wyliczanie
 - punktowanie
